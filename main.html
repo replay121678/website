@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>케이엠텍(주) 홈페이지</title>
+  <link rel="icon" href="assets/logo/logo.ico" type="image/x-icon">
+  <style>
+    body { margin: 0; font-family: 'Noto Sans KR', sans-serif; background: #f7f7f7; }
+    header { background: #23233a; color: #fff; padding: 0; }
+    .navbar { display: flex; align-items: center; justify-content: space-between; padding: 0 40px; height: 60px; }
+    .navbar img { height: 40px; }
+    .nav-links { display: flex; gap: 30px; }
+    .nav-links a { color: #fff; text-decoration: none; font-weight: 500; font-size: 16px; }
+    .main-visual { background: #222 url('assets/image/storage2.png') center/cover no-repeat; color: #fff; text-align: center; padding: 100px 20px 60px 20px; position: relative; }
+    .main-visual h1 { font-size: 2.5rem; margin-bottom: 10px; }
+    .main-visual p { font-size: 1.1rem; margin-bottom: 30px; }
+    .main-menu { display: flex; justify-content: center; gap: 40px; margin-top: 40px; }
+    .main-menu .menu-item { background: rgba(255,255,255,0.1); border-radius: 16px; padding: 20px 24px; color: #fff; text-align: center; width: 120px; transition: background 0.2s; }
+    .main-menu .menu-item:hover { background: #3a3a5a; }
+    .main-menu .menu-item i { font-size: 2.2rem; margin-bottom: 10px; display: block; }
+    .equip-section { background: #fff; padding: 60px 0 40px 0; text-align: center; }
+    .equip-section h2 { color: #23233a; font-size: 2rem; margin-bottom: 10px; }
+    .equip-section p { color: #555; margin-bottom: 30px; }
+    .equip-list { display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; }
+    .equip-item { background: #f3f3f3; border-radius: 12px; padding: 18px 12px; width: 200px; box-shadow: 0 2px 8px rgba(0,0,0,0.04); }
+    .equip-item img { width: 100%; height: 120px; object-fit: contain; margin-bottom: 10px; }
+    .equip-item span { display: block; font-weight: 500; color: #23233a; }
+    @media (max-width: 900px) {
+      .main-menu { flex-direction: column; gap: 20px; }
+      .equip-list { flex-direction: column; align-items: center; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <img src="assets/logo/logo.ico" alt="로고">
+      <nav class="nav-links">
+        <a href="C:\Users\User\Desktop\Website\about.html">회사소개</a>
+        <a href="#">제품</a>
+        <a href="#">홍보센터</a>
+        <a href="#">상담의뢰</a>
+        <a href="#">고객센터</a>
+      </nav>
+    </div>
+  </header>
+  <section class="main-visual">
+    <h1>우리 회사 짱짱이야.</h1>
+    <p>무언가 근사한 문장</p>
+    <div class="main-menu">
+      <div class="menu-item"><i>☕</i>디스플레이</div>
+      <div class="menu-item"><i>📄</i>광선검</div>
+      <div class="menu-item"><i>⚙️</i>건식장비</div>
+      <div class="menu-item"><i>✔️</i>습식장비</div>
+      <div class="menu-item"><i>📍</i>실험장비</div>
+    </div>
+  </section>
+  <section class="equip-section">
+    <h2>KM Tech Equipments</h2>
+    <p>박관호 직원 즉시 해체실 작업 투입 필요</p>
+    <div class="equip-list">
+      <div class="equip-item">
+        <img src="assets/image/storage.png" alt="Paste Mixer">
+        <span>Paste Mixer</span>
+      </div>
+      <div class="equip-item">
+        <img src="assets/image/storage2.png" alt="Planetary Mixer">
+        <span>Planetary Mixer</span>
+      </div>
+      <div class="equip-item">
+        <img src="assets/image/storage.png" alt="Kneader-P">
+        <span>Kneader-P</span>
+      </div>
+      <div class="equip-item">
+        <img src="assets/image/storage2.png" alt="Spheric coater">
+        <span>Spheric coater</span>
+      </div>
+    </div>
+  </section>
+</body>
+</html> 
